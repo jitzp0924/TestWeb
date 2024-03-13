@@ -16,6 +16,7 @@
 document.addEventListener('CT_web_native_display', function(e) {
       console.log('Event is ', e.detail)
       var bannerType = e.kv.type
+      console.log(bannerType)
     });
 
 // For OnUserLogin Function Button Click
